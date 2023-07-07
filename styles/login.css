@@ -1,0 +1,39 @@
+:root {
+    --font-logo: "Marcellus", serif;
+    --font-text: "Inter", sans-serif;
+    --color-primary: #703ddd;
+    --color-bg: #f5f5f5;
+}
+
+html {
+    background-color: var(--color-bg);
+}
+
+body,
+html {
+    min-height: 100vh;
+    height: 100%;
+}
+
+body * {
+    font-family: var(--font-text);
+}
+
+#login__sideimage {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: var(--color-primary);
+    opacity: 1;
+    background-image: radial-gradient(white 0.5px, var(--color-primary) 0.5px);
+    background-size: 10px 10px;
+}
+
+#login__sideimage .logo {
+    font-weight: bold;
+    font-family: var(--font-logo);
+    color: white;
+    font-size: 3rem;
+}
+
+#login__sideimage p {
+    color: white;
+}

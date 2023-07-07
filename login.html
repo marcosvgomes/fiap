@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>moneto - Login</title>
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="styles/bootstrap.css" />
+        <link rel="stylesheet" href="styles/login.css" />
+        <link rel="stylesheet" href="styles/bootstrap-theme.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Marcellus&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="row h-100 m-0">
+            <div class="d-none d-lg-flex col-7 d-flex flex-column justify-content-center align-items-center" id="login__sideimage">
+                <h2 class="logo">moneto</h2>
+                <p>Gerenciamento fácil do seu dinheiro.</p>
+            </div>
+            <div class="col-12 col-lg-5 d-flex flex-column justify-content-center align-items-center">
+                <div class="w-75">
+                    <p class="fs-2 fw-bold">Entrar - Moneto</p>
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input placeholder="@" type="email" class="form-control" id="email" aria-describedby="emailHelp" />
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input placeholder="***" type="password" class="form-control" id="password" />
+                            <label for="password">Senha</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Fazer login</button>
+
+                        <div class="my-3 text-center"><small>Ou entre de outra forma</small></div>
+
+                        <div class="btn-group w-100" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary"><i class="fa-brands fa-xl fa-google"></i></button>
+                            <button type="button" class="btn btn-outline-primary"><i class="fa-brands fa-xl fa-twitter"></i></button>
+                            <button type="button" class="btn btn-outline-primary"><i class="fa-brands fa-xl fa-facebook-f"></i></button>
+                            <button type="button" class="btn btn-outline-primary"><i class="fa-brands fa-xl fa-github"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
